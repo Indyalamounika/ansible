@@ -10,6 +10,6 @@
     private: true
   - course.yaml
   tasks:
-  - name: print course info
+  - name: print credentials
     ansible.builtin.debug:
       msg: "Course Name is: {{ COURSE }}, Duratioin: {{ DURATION }}, Trainer: {{ Trainer }}"
