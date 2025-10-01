@@ -3,12 +3,11 @@
   connection: local
   vars_prompt:
   - name: username
-    prompt: What is username?
+    prompt: What is your username?
     private: false
   - name: password
-    prompt: What is password?
+    prompt: What is your password?
     private: true
-  - course.yaml
   tasks:
   - name: print credentials
     ansible.builtin.debug:
